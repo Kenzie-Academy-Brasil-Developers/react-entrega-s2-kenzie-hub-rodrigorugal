@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Routes from "./routes";
+import { FullScreen } from "./style/Screen/style";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <FullScreen>
+        <Routes />
+      </FullScreen>
+    </>
+  );
 }
 
 export default App;
